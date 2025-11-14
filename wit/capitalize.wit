@@ -1,0 +1,10 @@
+package my:capitalize;
+
+interface host-functions {
+    capitalize: func(input: string) -> string;
+}
+
+world app {
+    import host-functions;
+    export run: func(input: string) -> string;
+}
