@@ -4,13 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# The main Wasmtime runtime
 wasmtime = { version = "22.0.0", features = ["component-model"] }
-
-# Standard WASI support (Using Preview 1, the default)
 wasmtime-wasi = "22.0.0"
-
-# Error handling
 anyhow = "1.0"
-
-# This dependency handles the WIT bindings for the *host*.

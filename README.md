@@ -23,7 +23,7 @@ to build the guest component:
 
 ```bash
 cd guest
-cargo build --target wasm32-wasip2 --release
+cargo build --target wasm32-wasip2
 ```
 
 To run the host component:
