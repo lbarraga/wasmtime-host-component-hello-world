@@ -32,10 +32,6 @@
             pkgs.jetbrains.rust-rover
             pkgs.lld
           ];
-
-          shellHook = ''
-            zsh
-          '';
         };
       });
 }
